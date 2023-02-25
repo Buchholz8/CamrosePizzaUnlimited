@@ -1,0 +1,54 @@
+header {
+  font-size: 1.5rem;
+  color: rgb(175, 175, 175);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header > #menu {
+  width: 30px;
+  height: 30px;
+  justify-self: end;
+  align-self: center;
+}
+header > #menu > #logo {
+  justify-self: start;
+  align-self: center;
+}
+
+body {
+  display: grid;
+  align-items: start;
+}
+
+#welcome {
+  display: grid;
+}
+#welcome > #info_par > h6 {
+  font-size: 1rem;
+}
+#welcome > #info_par > h2 {
+  font-size: 1.9rem;
+}
+#welcome > #info_par > #phone_number {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+  justify-items: start;
+}
+#welcome > #info_par > #ping_loc {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+  justify-items: start;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

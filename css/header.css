@@ -1,0 +1,18 @@
+header {
+  font-size: 1.5rem;
+  color: rgb(175, 175, 175);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header > #menu {
+  width: 30px;
+  height: 30px;
+  justify-self: end;
+  align-self: center;
+}
+header > #menu > #logo {
+  justify-self: start;
+  align-self: center;
+}
+
+/*# sourceMappingURL=header.css.map */

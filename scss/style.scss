@@ -1,0 +1,10 @@
+@use "header.scss";
+@use "body.scss";
+@use "footer.scss";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 30px;
+    height: 30px;
+}

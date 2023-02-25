@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  align-items: start;
+}
+
+#welcome {
+  display: grid;
+}
+#welcome > #info_par > h6 {
+  font-size: 1rem;
+}
+#welcome > #info_par > h2 {
+  font-size: 1.9rem;
+}
+#welcome > #info_par > #phone_number {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+  justify-items: start;
+}
+#welcome > #info_par > #ping_loc {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+  justify-items: start;
+}
+
+/*# sourceMappingURL=body.css.map */
