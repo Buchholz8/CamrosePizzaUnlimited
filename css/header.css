@@ -3,6 +3,7 @@ header {
   color: rgb(175, 175, 175);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
 }
 header > #menu {
   width: 30px;

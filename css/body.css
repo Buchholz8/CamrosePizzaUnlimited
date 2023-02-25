@@ -1,6 +1,7 @@
 body {
   display: grid;
   align-items: start;
+  min-height: 80vh;
 }
 
 #welcome {
@@ -11,15 +12,18 @@ body {
 }
 #welcome > #info_par > h6 {
   font-size: 1rem;
+  padding-bottom: 20px;
 }
 #welcome > #info_par > h2 {
   font-size: 1.9rem;
+  padding-bottom: 20px;
 }
 #welcome > #info_par > #phone_number {
   display: grid;
   grid-template-columns: 10% 90%;
   place-items: center;
   justify-items: start;
+  padding-bottom: 20px;
 }
 #welcome > #info_par > #ping_loc {
   display: grid;
@@ -49,6 +53,46 @@ body {
   border-radius: 30px;
   width: 350px;
   height: 350px;
+}
+
+#more_inf {
+  display: grid;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+#pizza_menu {
+  display: grid;
+  background-color: black;
+  width: 100%;
+  place-items: center;
+}
+#pizza_menu * {
+  margin: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#pizza_menu > #menu_name {
+  transform: translate(0px, -100px);
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+#pizza_menu > #fullpic_piz {
+  height: 300px;
+  width: 100%;
+  margin-top: 40px;
+  object-fit: cover;
+}
+#pizza_menu > article {
+  background-color: aliceblue;
+  display: grid;
+  text-align: left;
+}
+#pizza_menu > article > img {
+  width: 350px;
+  height: 250px;
+  padding-top: 10px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=body.css.map */
