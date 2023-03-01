@@ -6,12 +6,14 @@ body {
 
 #welcome {
     display: grid;
-    >*{
-        margin-bottom: 10px;
+margin-left: 20px;
+    >* {
+        padding-bottom: 22px;
     }
+
     >#info_par {
         >h6 {
-            font-size: 1rem;
+            font-size: 1.5rem;
             padding-bottom: 20px;
         }
 
@@ -57,48 +59,199 @@ body {
     place-items: center;
 
     >#filler_img {
-border-radius: 30px;
+        border-radius: 30px;
         width: 350px;
         height: 350px;
     }
 }
-#more_inf{
+
+#more_inf {
     display: grid;
     font-size: 0.7rem;
     text-align: center;
 }
 
 
-#pizza_menu{
+#pizza_menu {
     display: grid;
     background-color: black;
     width: 100%;
     place-items: center;
-    *{
+
+    * {
         margin: 15px;
         margin-left: 40px;
         margin-right: 40px;
     }
-    >#menu_name{
+
+    >#menu_name {
         transform: translate(0px, -100px);
         font-size: 2rem;
         color: rgb(255, 255, 255);
     }
-    >#fullpic_piz{
+
+    >#fullpic_piz {
         height: 300px;
         width: 100%;
         margin-top: 40px;
         object-fit: cover;
     }
-    >article{
+
+    >article {
         background-color: aliceblue;
         display: grid;
         text-align: left;
-        >img{
+        animation: moveaway ease-in 1500ms forwards;
+
+        >img {
             width: 350px;
             height: 250px;
             padding-top: 10px;
             object-fit: cover;
         }
+    }
+}
+
+@keyframes moveaway {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-120px);
+    }
+}
+
+#specialties {
+    display: grid;
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+
+    >article {
+        >h2 {
+            color: rgb(226, 67, 4);
+            padding: 16px;
+        }
+    }
+}
+
+#salads {
+    padding: 26px;
+
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+
+}
+
+#wings {
+    padding: 26px;
+
+    * {}
+
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+
+}
+
+#Great_Pizza {
+    display: grid;
+    background-color: rgb(228, 53, 0);
+    color: white;
+
+    * {
+        padding-bottom: 20px;
+    }
+
+    >#gp_para {
+
+        display: grid;
+        background-color: aliceblue;
+        color: black;
+        place-items: center;
+        margin: 40px;
+        font-size: 1.5rem;
+    }
+
+    >#gp_para {
+        display: grid;
+        background-color: aliceblue;
+        color: black;
+        place-items: center;
+        margin: 40px;
+        font-size: 1.5rem;
+    }
+
+    >#pizza_sizes {
+        margin-left: 20px;
+        font-size: 1.5rem;
+
+    }
+
+    >#Specialty {
+        margin-left: 20px;
+        font-size: 1.5rem;
+
+        >p {
+            color: rgb(153, 151, 151);
+        }
+    }
+}
+#gp_background{
+    background-image: url(/images/greatpizza.jpg);
+    height: 300px;
+}
+
+#story_sec {
+    display: grid;
+    margin-left: 20px;
+    place-items: center;
+    text-align: center;
+
+    * {
+        padding: 20px;
+    }
+}
+
+#aboutus_img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+#information {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(/images/info_background.jpeg);
+    * {
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 1.5rem;
+        display: grid;
+        margin: 20px;
+        background-color: aliceblue;
+        width: 80%;
     }
 }

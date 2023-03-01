@@ -6,12 +6,13 @@ body {
 
 #welcome {
   display: grid;
+  margin-left: 20px;
 }
 #welcome > * {
-  margin-bottom: 10px;
+  padding-bottom: 22px;
 }
 #welcome > #info_par > h6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: 20px;
 }
 #welcome > #info_par > h2 {
@@ -87,12 +88,132 @@ body {
   background-color: aliceblue;
   display: grid;
   text-align: left;
+  animation: moveaway ease-in 1500ms forwards;
 }
 #pizza_menu > article > img {
   width: 350px;
   height: 250px;
   padding-top: 10px;
   object-fit: cover;
+}
+
+@keyframes moveaway {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-120px);
+  }
+}
+#specialties {
+  display: grid;
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+}
+#specialties > article > h2 {
+  color: rgb(226, 67, 4);
+  padding: 16px;
+}
+
+#salads {
+  padding: 26px;
+}
+#salads > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#salads > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#wings {
+  padding: 26px;
+}
+#wings > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#wings > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#Great_Pizza {
+  display: grid;
+  background-color: rgb(228, 53, 0);
+  color: white;
+}
+#Great_Pizza * {
+  padding-bottom: 20px;
+}
+#Great_Pizza > #gp_para {
+  display: grid;
+  background-color: aliceblue;
+  color: black;
+  place-items: center;
+  margin: 40px;
+  font-size: 1.5rem;
+}
+#Great_Pizza > #gp_para {
+  display: grid;
+  background-color: aliceblue;
+  color: black;
+  place-items: center;
+  margin: 40px;
+  font-size: 1.5rem;
+}
+#Great_Pizza > #pizza_sizes {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+#Great_Pizza > #Specialty {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+#Great_Pizza > #Specialty > p {
+  color: rgb(153, 151, 151);
+}
+
+#gp_background {
+  background-image: url(/images/greatpizza.jpg);
+  height: 300px;
+}
+
+#story_sec {
+  display: grid;
+  margin-left: 20px;
+  place-items: center;
+  text-align: center;
+}
+#story_sec * {
+  padding: 20px;
+}
+
+#aboutus_img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+#information {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: 20px;
+  background-image: url(/images/info_background.jpeg);
+}
+#information * {
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  display: grid;
+  margin: 20px;
+  background-color: aliceblue;
+  width: 80%;
 }
 
 /*# sourceMappingURL=body.css.map */

@@ -2,8 +2,10 @@ header {
   font-size: 1.5rem;
   color: rgb(175, 175, 175);
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  min-height: 10vh;
 }
 header > #menu {
   width: 30px;
