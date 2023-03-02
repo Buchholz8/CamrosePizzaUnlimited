@@ -1,0 +1,10 @@
+#conpage{
+    display: grid;
+    min-height: 80vh;
+    text-align: center;
+    >div{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        place-items: center;
+    }
+}

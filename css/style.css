@@ -265,6 +265,17 @@ footer {
   margin-bottom: 10px;
 }
 
+#conpage {
+  display: grid;
+  min-height: 80vh;
+  text-align: center;
+}
+#conpage > div {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+}
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;

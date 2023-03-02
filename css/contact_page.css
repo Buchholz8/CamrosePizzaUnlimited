@@ -1,0 +1,12 @@
+#conpage {
+  display: grid;
+  min-height: 80vh;
+  text-align: center;
+}
+#conpage > div {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  place-items: center;
+}
+
+/*# sourceMappingURL=contact_page.css.map */
