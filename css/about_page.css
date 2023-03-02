@@ -1,0 +1,16 @@
+#aboutus_main {
+  display: grid;
+  min-height: 80vh;
+}
+#aboutus_main > section {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+#aboutus_header {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=about_page.css.map */

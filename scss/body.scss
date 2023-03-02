@@ -6,7 +6,7 @@ body {
 
 #welcome {
     display: grid;
-margin-left: 20px;
+    margin-left: 20px;
     >* {
         padding-bottom: 22px;
     }
@@ -155,9 +155,6 @@ margin-left: 20px;
 
 #wings {
     padding: 26px;
-
-    * {}
-
     >div {
         * {
             font-size: 1.5rem;
@@ -190,6 +187,11 @@ margin-left: 20px;
         place-items: center;
         margin: 40px;
         font-size: 1.5rem;
+        padding: 20px;
+        >p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
 
     >#gp_para {

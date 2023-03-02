@@ -176,6 +176,11 @@ body {
   place-items: center;
   margin: 40px;
   font-size: 1.5rem;
+  padding: 20px;
+}
+#Great_Pizza > #gp_para > p {
+  font-size: 1.2rem;
+  text-align: center;
 }
 #Great_Pizza > #gp_para {
   display: grid;
@@ -243,6 +248,21 @@ footer {
   place-items: center;
   min-height: 10vh;
   color: aliceblue;
+}
+
+#aboutus_main {
+  display: grid;
+  min-height: 80vh;
+}
+#aboutus_main > section {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+#aboutus_header {
+  margin-bottom: 10px;
 }
 
 * {
