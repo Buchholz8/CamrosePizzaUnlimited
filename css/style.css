@@ -301,6 +301,158 @@ footer {
   background-color: white;
 }
 
+#pizzas_prod {
+  display: grid;
+  margin-left: 20px;
+}
+#pizzas_prod > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#pizzas_prod * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#pizzas_prod > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#expanded_topings {
+  display: grid;
+  margin-left: 20px;
+}
+#expanded_topings > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#expanded_topings > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#expanded_topings > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#toppings_prod {
+  display: grid;
+  margin-left: 20px;
+}
+#toppings_prod > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#toppings_prod * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#toppings_prod > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#pizza_types {
+  display: grid;
+  margin-left: 20px;
+}
+#pizza_types > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#pizza_types > h6 {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+#pizza_types * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#pizza_types > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#tcombos_art {
+  display: grid;
+  margin-left: 20px;
+}
+#tcombos_art > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#tcombos_art > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#tcombos_art > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#Combos_art {
+  display: grid;
+  margin-left: 20px;
+}
+#Combos_art > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#Combos_art > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#Combos_art > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#specialty_chick {
+  display: grid;
+  margin-left: 20px;
+}
+#specialty_chick > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#specialty_chick > h6 {
+  color: rgb(243, 243, 243);
+  font-size: 1.2rem;
+}
+#specialty_chick * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#specialty_chick > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#bevies {
+  display: grid;
+  margin-left: 20px;
+}
+#bevies > h4 {
+  color: orangered;
+  padding: 16px;
+}
+#bevies > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#bevies > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;

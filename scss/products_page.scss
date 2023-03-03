@@ -19,3 +19,171 @@ background-color: rgb(20, 20, 20);
     padding: 10px;
 background-color: white;
 }}
+#pizzas_prod{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+
+}
+#expanded_topings{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+}
+#toppings_prod{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+
+}
+#pizza_types{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >h6{
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+    }
+
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+
+}
+#tcombos_art{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+}
+#Combos_art{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+}
+#specialty_chick{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >h6{
+        color: rgb(243, 243, 243);
+        font-size: 1.2rem;
+    }
+
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+
+}
+#bevies{
+    display: grid;
+    margin-left: 20px;
+    >h4{
+        color: orangered;
+        padding: 16px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+    }
+}
