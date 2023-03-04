@@ -240,9 +240,6 @@ body {
   header {
     grid-template-columns: 1fr 1fr;
   }
-  #pizza_menu {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 /*# sourceMappingURL=body.css.map */
