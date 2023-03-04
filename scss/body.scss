@@ -7,6 +7,7 @@ body {
 #welcome {
     display: grid;
     margin-left: 20px;
+
     >* {
         padding-bottom: 22px;
     }
@@ -136,7 +137,6 @@ body {
 }
 
 #salads {
-    padding: 26px;
 
     >div {
         * {
@@ -154,7 +154,7 @@ body {
 }
 
 #wings {
-    padding: 26px;
+
     >div {
         * {
             font-size: 1.5rem;
@@ -188,7 +188,8 @@ body {
         margin: 40px;
         font-size: 1.5rem;
         padding: 20px;
-        >p{
+
+        >p {
             font-size: 1.2rem;
             text-align: center;
         }
@@ -203,8 +204,10 @@ body {
         font-size: 1.5rem;
     }
 }
-#menu_main{
+
+#menu_main {
     display: grid;
+
     >#pizza_sizes {
         margin-left: 20px;
         font-size: 1.5rem;
@@ -220,7 +223,8 @@ body {
         }
     }
 }
-#gp_background{
+
+#gp_background {
     background-image: url(/images/greatpizza.jpg);
     height: 300px;
 }
@@ -249,6 +253,7 @@ body {
     text-align: center;
     margin-top: 20px;
     background-image: url(/images/info_background.jpeg);
+
     * {
         padding: 10px;
         margin-top: 30px;
@@ -259,28 +264,35 @@ body {
         width: 80%;
     }
 }
-@media screen and (min-width: 750px){
-    #pizza_menu{
+
+@media screen and (min-width: 750px) {
+    #pizza_menu {
         grid-template-columns: 1fr 1fr;
     }
-    #specialties{
+
+    #specialties {
         grid-template-columns: 1fr 1fr;
     }
-    #menu_main{
+
+    #menu_main {
         grid-template-columns: 1fr 1fr;
     }
-    #story_sec{
+
+    #story_sec {
         grid-template-columns: 1fr 1fr;
     }
-    #information{
+
+    #information {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media screen and (min-width: 1000px){
-header{
-    grid-template-columns: 1fr 1fr;
-}
-#pizza_menu{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
+@media screen and (min-width: 1000px) {
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #pizza_menu {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

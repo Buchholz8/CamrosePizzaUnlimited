@@ -5,6 +5,47 @@
     display: grid;
     min-height: 80vh;
 }
+#top_type{
+    display: grid;
+    padding-left: 10px;
+    background-color: rgb(20, 20, 20);
+    >h4{
+        color: aliceblue;
+        padding: 16px;
+    }
+    * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+    >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+}
+#combos_spec{
+    display: grid;
+    padding-left: 10px;
+    background-color: rgb(20, 20, 20);
+    >h4{
+        color: white;
+        padding: 16px;
+    }
+    >h2{
+        color: orangered;
+    }
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            margin-left: 10px;
+        }
+
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+}
 #links {
     place-items: center;
 display: grid;
@@ -94,7 +135,6 @@ background-color: white;
         * {
             font-size: 1.5rem;
             margin-bottom: 14px;
-            margin-left: 10px;
         }
 
         >p {
@@ -114,7 +154,6 @@ background-color: white;
         * {
             font-size: 1.5rem;
             margin-bottom: 14px;
-            margin-left: 10px;
         }
 
         >p {
@@ -134,7 +173,6 @@ background-color: white;
         * {
             font-size: 1.5rem;
             margin-bottom: 14px;
-            margin-left: 10px;
         }
 
         >p {
@@ -158,7 +196,6 @@ background-color: white;
         * {
             font-size: 1.5rem;
             margin-bottom: 14px;
-            margin-left: 10px;
         }
 
         >p {
@@ -166,6 +203,48 @@ background-color: white;
             padding-bottom: 20px;
         }
 
+}
+#salads {
+    display: grid;
+    margin-left: 20px;
+    >h2{
+        color: orangered;
+        padding-left: 20px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+        }
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+        >h4{
+            color: rgb(253, 253, 253);
+        }
+    }
+}
+#wings{
+    display: grid;
+    margin-left: 20px;
+    >h2{
+        color: orangered;
+        padding-left: 20px;
+    }
+    >div {
+        * {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+        }
+        >p {
+            color: rgb(99, 99, 99);
+            padding-bottom: 20px;
+        }
+        >h4{
+            color: rgb(253, 253, 253);
+        }
+    }
 }
 #bevies{
     display: grid;
@@ -178,7 +257,6 @@ background-color: white;
         * {
             font-size: 1.5rem;
             margin-bottom: 14px;
-            margin-left: 10px;
         }
 
         >p {

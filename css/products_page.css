@@ -7,6 +7,47 @@
   min-height: 80vh;
 }
 
+#top_type {
+  display: grid;
+  padding-left: 10px;
+  background-color: rgb(20, 20, 20);
+}
+#top_type > h4 {
+  color: aliceblue;
+  padding: 16px;
+}
+#top_type * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#top_type > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
+#combos_spec {
+  display: grid;
+  padding-left: 10px;
+  background-color: rgb(20, 20, 20);
+}
+#combos_spec > h4 {
+  color: white;
+  padding: 16px;
+}
+#combos_spec > h2 {
+  color: orangered;
+}
+#combos_spec * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#combos_spec > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+
 #links {
   place-items: center;
   display: grid;
@@ -92,7 +133,6 @@
 #pizza_types * {
   font-size: 1.5rem;
   margin-bottom: 14px;
-  margin-left: 10px;
 }
 #pizza_types > p {
   color: rgb(99, 99, 99);
@@ -110,7 +150,6 @@
 #tcombos_art > div * {
   font-size: 1.5rem;
   margin-bottom: 14px;
-  margin-left: 10px;
 }
 #tcombos_art > div > p {
   color: rgb(99, 99, 99);
@@ -128,7 +167,6 @@
 #Combos_art > div * {
   font-size: 1.5rem;
   margin-bottom: 14px;
-  margin-left: 10px;
 }
 #Combos_art > div > p {
   color: rgb(99, 99, 99);
@@ -150,11 +188,50 @@
 #specialty_chick * {
   font-size: 1.5rem;
   margin-bottom: 14px;
-  margin-left: 10px;
 }
 #specialty_chick > p {
   color: rgb(99, 99, 99);
   padding-bottom: 20px;
+}
+
+#salads {
+  display: grid;
+  margin-left: 20px;
+}
+#salads > h2 {
+  color: orangered;
+  padding-left: 20px;
+}
+#salads > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+#salads > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+#salads > div > h4 {
+  color: rgb(253, 253, 253);
+}
+
+#wings {
+  display: grid;
+  margin-left: 20px;
+}
+#wings > h2 {
+  color: orangered;
+  padding-left: 20px;
+}
+#wings > div * {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+#wings > div > p {
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+}
+#wings > div > h4 {
+  color: rgb(253, 253, 253);
 }
 
 #bevies {
@@ -168,7 +245,6 @@
 #bevies > div * {
   font-size: 1.5rem;
   margin-bottom: 14px;
-  margin-left: 10px;
 }
 #bevies > div > p {
   color: rgb(99, 99, 99);

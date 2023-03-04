@@ -115,9 +115,6 @@ body {
   padding: 16px;
 }
 
-#salads {
-  padding: 26px;
-}
 #salads > div * {
   font-size: 1.5rem;
   margin-bottom: 14px;
@@ -128,9 +125,6 @@ body {
   padding-bottom: 20px;
 }
 
-#wings {
-  padding: 26px;
-}
 #wings > div * {
   font-size: 1.5rem;
   margin-bottom: 14px;
