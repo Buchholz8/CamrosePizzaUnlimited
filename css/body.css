@@ -170,15 +170,19 @@ body {
   margin: 40px;
   font-size: 1.5rem;
 }
-#Great_Pizza > #pizza_sizes {
+
+#menu_main {
+  display: grid;
+}
+#menu_main > #pizza_sizes {
   margin-left: 20px;
   font-size: 1.5rem;
 }
-#Great_Pizza > #Specialty {
+#menu_main > #Specialty {
   margin-left: 20px;
   font-size: 1.5rem;
 }
-#Great_Pizza > #Specialty > p {
+#menu_main > #Specialty > p {
   color: rgb(153, 151, 151);
 }
 
@@ -224,6 +228,26 @@ body {
 @media screen and (min-width: 750px) {
   #pizza_menu {
     grid-template-columns: 1fr 1fr;
+  }
+  #specialties {
+    grid-template-columns: 1fr 1fr;
+  }
+  #menu_main {
+    grid-template-columns: 1fr 1fr;
+  }
+  #story_sec {
+    grid-template-columns: 1fr 1fr;
+  }
+  #information {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1000px) {
+  header {
+    grid-template-columns: 1fr 1fr;
+  }
+  #pizza_menu {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

@@ -202,7 +202,9 @@ body {
         margin: 40px;
         font-size: 1.5rem;
     }
-
+}
+#menu_main{
+    display: grid;
     >#pizza_sizes {
         margin-left: 20px;
         font-size: 1.5rem;
@@ -261,4 +263,24 @@ body {
     #pizza_menu{
         grid-template-columns: 1fr 1fr;
     }
+    #specialties{
+        grid-template-columns: 1fr 1fr;
+    }
+    #menu_main{
+        grid-template-columns: 1fr 1fr;
+    }
+    #story_sec{
+        grid-template-columns: 1fr 1fr;
+    }
+    #information{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1000px){
+header{
+    grid-template-columns: 1fr 1fr;
+}
+#pizza_menu{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }
