@@ -246,8 +246,9 @@ body {
   #specialties {
     grid-template-columns: 1fr 1fr;
   }
-  #menu_main {
-    grid-template-columns: 1fr 1fr;
+  #pizza_sizes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   #story_sec {
     grid-template-columns: 1fr 1fr;

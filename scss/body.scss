@@ -90,7 +90,6 @@ body {
         font-size: 2rem;
         color: rgb(255, 255, 255);
     }
-
     >#fullpic_piz {
         height: 300px;
         width: 100%;
@@ -273,11 +272,10 @@ body {
     #specialties {
         grid-template-columns: 1fr 1fr;
     }
-
-    #menu_main {
-        grid-template-columns: 1fr 1fr;
-    }
-
+#pizza_sizes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
     #story_sec {
         grid-template-columns: 1fr 1fr;
     }
