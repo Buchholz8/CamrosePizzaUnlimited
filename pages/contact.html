@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-        <p id="logo_conpage">logo</p>
-        <img id="menu_conpage" src="/images/menu.svg" alt="menu img">
+    <header id="topheader">
+        <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+        <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+        <p id="logo">logo</p>
+        <label for="menu_open">
+            <img id="menu" src="/images/menu.svg" alt="menu img" class="hoverable">
+        </label>
+        <section id="mobile_menu">
+            <div id="menu_header">
+                <img id="menu" src="/images/menu.svg" alt="menu img">
+                <label for="menu_close">
+                    <img src="/images/exitmenu.jpg" alt="menu exit X" class="hoverable">
+                </label>
+            </div>
+            <a href="/pages/about.html">About</a>
+                <a href="/index.html">Home</a>
+                <a href="/pages/products.html">Products</a>
+        </section>
     </header>
     <main id="conpage">
         <p>We are a local buisiness in Camrose Alberta and we serve quality pizza.</p>
@@ -23,11 +38,6 @@
             <img src="/images/phone img.jfif" alt="picture of a phone">
             <p>(780) 672-9943</p>
         </div>
-        <nav id="links">
-            <a href="/pages/about.html">About</a>
-            <a href="/index.html">home</a>
-            <a href="/pages/products.html">Products</a>
-        </nav>
     </main>
     <footer>
         <p>sample text click or double click to edit</p>

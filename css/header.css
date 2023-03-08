@@ -1,7 +1,12 @@
 #topheader {
   display: grid;
   place-items: center;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+#topheader > p {
+  font-size: 2rem;
+  justify-self: start;
 }
 
 #mobile_header {
@@ -19,6 +24,10 @@
 
 .menu_radio_button {
   display: none;
+}
+
+#mobile_menu {
+  display: none;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -28,11 +37,14 @@
   grid-template-rows: 20vh;
   width: 100%;
   height: 100%;
-  background-color: orange;
+  background-color: rgb(255, 255, 255);
   color: white;
   visibility: hidden;
   transition: all ease-in-out 0.33s;
   transform: scale(0);
+}
+#mobile_menu > a {
+  font-size: 1.5rem;
 }
 
 #menu_open:checked ~ #mobile_menu {
@@ -47,12 +59,6 @@
   width: 100%;
   grid-auto-flow: column;
   height: 20vh;
-}
-
-#page_content {
-  min-height: 60vh;
-  display: grid;
-  place-items: center;
 }
 
 .hoverable {
