@@ -185,13 +185,12 @@ body {
     display: grid;
     background-color: rgb(228, 53, 0);
     color: white;
-
     * {
         padding-bottom: 20px;
     }
 
     >#gp_para {
-
+        transform: translate(0px, -150px);
         display: grid;
         background-color: aliceblue;
         color: black;
@@ -210,23 +209,37 @@ body {
     display: grid;
 
     >#pizza_sizes {
+        display: grid;
         margin-left: 20px;
         font-size: 1.5rem;
+        transform: translate(0px, -150px);
+        grid-template-columns: 1fr 1fr;
     }
 
     >#Specialty {
         margin-left: 20px;
         font-size: 1.5rem;
-
+        transform: translate(0px, -150px);
         >p {
             color: rgb(153, 151, 151);
         }
+        >h2{
+            text-decoration: underline;
+            color: black;
+        }
+    }
+    >#menusizes_title{
+        margin-left: 20px;
+        transform: translate(0px, -150px);
+        text-decoration: underline;
+        color: black;
+        font-size: 2rem;
     }
 }
 
 #gp_background {
-    background-image: url(/images/greatpizza.jpg);
-    height: 300px;
+    background-image: url(/images/gp_background.jpeg);
+    height: 200px;
 }
 
 #story_sec {
