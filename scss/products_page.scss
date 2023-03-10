@@ -9,7 +9,7 @@
 #top_type{
     display: grid;
     padding-left: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(24, 24, 24);
     >h4{
         color: aliceblue;
         padding: 16px;
@@ -28,7 +28,7 @@
 #combos_spec{
     display: grid;
     padding-left: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(24, 24, 24);
     >h4{
         color: white;
         padding: 16px;
@@ -51,7 +51,7 @@
     place-items: center;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-background-color: rgb(20, 20, 20);
+background-color: rgb(24, 24, 24);
 >a {
     text-decoration: none;
     color: rgb(20, 20, 20);
@@ -100,6 +100,10 @@ background-color: white;
             padding-bottom: 20px;
         }
     }
+}
+#top_type{
+    display: grid;
+    background-color: rgb(24, 24, 24);
 }
 #toppings_prod{
     display: grid;

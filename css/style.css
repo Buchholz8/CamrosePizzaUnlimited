@@ -364,7 +364,7 @@ footer {
   display: grid;
   place-items: center;
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(255, 255, 255);
 }
 
 #aboutus_header {
@@ -422,7 +422,7 @@ footer {
 #top_type {
   display: grid;
   padding-left: 10px;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(24, 24, 24);
 }
 #top_type > h4 {
   color: aliceblue;
@@ -441,7 +441,7 @@ footer {
 #combos_spec {
   display: grid;
   padding-left: 10px;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(24, 24, 24);
 }
 #combos_spec > h4 {
   color: white;
@@ -464,7 +464,7 @@ footer {
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(24, 24, 24);
 }
 #links > a {
   text-decoration: none;
@@ -510,6 +510,11 @@ footer {
 #expanded_topings > div > p {
   color: rgb(99, 99, 99);
   padding-bottom: 20px;
+}
+
+#top_type {
+  display: grid;
+  background-color: rgb(24, 24, 24);
 }
 
 #toppings_prod {
