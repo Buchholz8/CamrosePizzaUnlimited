@@ -55,26 +55,35 @@
                 <h1 id="menu_name">Pizzas</h1>
             </div>
         <section id="pizza_menu">
-            <article id="can_piz">
+            <article class="mySlides fade">
                 <img src="/images/canadianpizza" alt="picture of canadian style pizza">
-                <h2>Canadian Pizza</h2>
-                <p>Our classic Canadian Pizza is topped with Pepperoni, Mushrooms, Bacon and Cheese</p>
+                <h2 class="text">Canadian Pizza</h2>
+                <p class="text">Our classic Canadian Pizza is topped with Pepperoni, Mushrooms, Bacon and Cheese</p>
             </article>
-            <article>
+            <article class="mySlides fade">
                 <img src="/images/notbbq but will work.avif" alt="picture of bbq style pizza">
-                <h2>BBQ Chicken</h2>
-                <p>BBQ Chicken pizza is topped with Onions, Tandoori Chicken, Jalapenos, cheese, and BBQ Chicken</p>
+                <h2 class="text">BBQ Chicken</h2>
+                <p v>BBQ Chicken pizza is topped with Onions, Tandoori Chicken, Jalapenos, cheese, and BBQ Chicken</p>
             </article>
-            <article>
+            <article class="mySlides fade">
                 <img src="/images/veggie.avif" alt="picture of veggie style pizza">
-                <h2>Veggie Pizza</h2>
-                <p>The veggie is topped with Mushrooms, Onions, Green peppers, Tomatoes, and cheese.</p>
+                <h2 class="text">Veggie Pizza</h2>
+                <p class="text">The veggie is topped with Mushrooms, Onions, Green peppers, Tomatoes, and cheese.</p>
             </article>
-            <article>
+            <article class="mySlides fade">
                 <img src="/images/meat pizza.avif" alt="picture of all meat style pizza">
-                <h2>All Meat</h2>
-                <p>Our all meat pizza is topped with Pepperoni, Ham, Bacon, Italian Sausage.</p>
+                <h2 class="text">All Meat</h2>
+                <p class="text">Our all meat pizza is topped with Pepperoni, Ham, Bacon, Italian Sausage.</p>
             </article>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
         </section>
         <section id="specialties">
             <article id="salads">
