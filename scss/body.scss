@@ -38,7 +38,6 @@ body {
             justify-items: start;
         }
     }
-
     >#links {
         place-items: center;
         display: grid;
@@ -54,7 +53,6 @@ body {
         }
     }
 }
-
 #tbd_img {
     display: grid;
     place-items: center;
@@ -64,19 +62,17 @@ body {
         width: 80%;
         height: 350px;
         object-fit: cover;
+        align-self: self-start;
     }
 }
-
 #more_inf {
     display: grid;
     font-size: 0.7rem;
     text-align: center;
 }
-
 #pizzamenu_header {
     display: grid;
-    padding-top: 60px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     place-items: center;
 
     img {
@@ -85,9 +81,9 @@ body {
     }
 
     >#menu_name {
-        transform: translate(0px, -100px);
+        transform: translate(0px, -5px);
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 }
 

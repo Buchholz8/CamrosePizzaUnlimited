@@ -6,6 +6,7 @@
     >p{
         font-size: 2rem;
         justify-self: start;
+        padding-left: 70px;
     }
 }
 
@@ -33,7 +34,7 @@
     display: grid;
     place-items: center;
     grid-template-rows: 20vh;
-    width: 20%;
+    width: 30%;
     height: 100%;
     background-color: orangered;
     color: rgb(0, 0, 0);

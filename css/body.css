@@ -55,6 +55,7 @@ body {
   width: 80%;
   height: 350px;
   object-fit: cover;
+  align-self: self-start;
 }
 
 #more_inf {
@@ -65,8 +66,7 @@ body {
 
 #pizzamenu_header {
   display: grid;
-  padding-top: 60px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   place-items: center;
 }
 #pizzamenu_header img {
@@ -74,9 +74,9 @@ body {
   height: 350px;
 }
 #pizzamenu_header > #menu_name {
-  transform: translate(0px, -100px);
+  transform: translate(0px, -5px);
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 #pizza_menu {
