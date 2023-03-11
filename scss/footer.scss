@@ -13,6 +13,7 @@ footer {
 .media_footer{
     >a{
     text-decoration: none;
+    font-size: 0.8rem;
     }
 }
 #footer_info {
@@ -29,36 +30,51 @@ footer {
 .pages_foot{
     display: grid;
     >h5{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 10px;
         text-decoration: underline;
+    }
+    >p{
+        font-size: 0.7rem;
     }
     >a{
         text-decoration: none;
         color: aliceblue;
+        font-size: 0.8rem;
     }
 }
 .services{
     display: grid;
     >h5{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 10px;
         text-decoration: underline;
+    }
+    >p{
+        font-size: 0.7rem;
     }
     >a{
         text-decoration: none;
         color: aliceblue;
+        font-size: 0.8rem;
     }
 }
 .policies{
     display: grid;
     >h5{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 10px;
         text-decoration: underline;
+    }
+    >p{
+        font-size: 0.7rem;
     }
     >a{
         text-decoration: none;
         color: aliceblue;
+        font-size: 0.8rem;
     }
+}
+#otherfooter_info{
+    font-size: 0.5rem;
 }

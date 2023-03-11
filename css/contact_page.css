@@ -9,12 +9,12 @@
   place-items: center;
 }
 
-#links {
+#personal_info {
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-#links > a {
+#personal_info > p {
   text-decoration: none;
   color: rgb(0, 0, 0);
   border-style: solid;
