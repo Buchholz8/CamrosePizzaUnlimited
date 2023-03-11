@@ -11,7 +11,7 @@
 
 #mobile_header {
   min-height: 20vh;
-  width: 100%;
+  width: 20%;
   display: grid;
   place-items: center;
   grid-auto-flow: column;
@@ -35,16 +35,18 @@
   display: grid;
   place-items: center;
   grid-template-rows: 20vh;
-  width: 100%;
+  width: 20%;
   height: 100%;
-  background-color: rgb(255, 255, 255);
-  color: white;
+  background-color: orangered;
+  color: rgb(0, 0, 0);
   visibility: hidden;
   transition: all ease-in-out 0.33s;
   transform: scale(0);
 }
 #mobile_menu > a {
   font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
 }
 
 #menu_open:checked ~ #mobile_menu {
@@ -174,7 +176,7 @@ body {
   background-color: aliceblue;
   display: grid;
   text-align: left;
-  animation: moveaway ease-in 1500ms forwards;
+  animation: pizza_special ease-in 3000ms repeat;
 }
 #pizza_menu > article > img {
   width: 350px;
@@ -183,6 +185,75 @@ body {
   object-fit: cover;
 }
 
+.can_piz {
+  animation: pizza_special ease-in 10s repeat;
+}
+
+.BBQ_Ch {
+  animation: pizza_special ease-in 20s repeat;
+}
+
+.Veg_Piz {
+  animation: pizza_special ease-in 30s repeat;
+}
+
+.Meat_Piz {
+  animation: pizza_special ease-in 40s repeat;
+}
+
+@keyframes pizza_special {
+  0% {
+    background-color: black;
+  }
+  8% {
+    background-color: rgb(44, 44, 44);
+  }
+  16% {
+    background-color: rgb(134, 134, 134);
+  }
+  22% {
+    background-color: rgb(199, 199, 199);
+  }
+  28% {
+    background-color: rgb(255, 255, 255);
+  }
+  34% {
+    background-color: rgb(44, 44, 44);
+  }
+  40% {
+    background-color: rgb(134, 134, 134);
+  }
+  46% {
+    background-color: rgb(199, 199, 199);
+  }
+  52% {
+    background-color: rgb(255, 255, 255);
+  }
+  58% {
+    background-color: rgb(44, 44, 44);
+  }
+  64% {
+    background-color: rgb(134, 134, 134);
+  }
+  70% {
+    background-color: rgb(199, 199, 199);
+  }
+  76% {
+    background-color: rgb(255, 255, 255);
+  }
+  82% {
+    background-color: rgb(44, 44, 44);
+  }
+  88% {
+    background-color: rgb(134, 134, 134);
+  }
+  94% {
+    background-color: rgb(199, 199, 199);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
 #allmeat {
   display: grid;
   padding-bottom: 80px;
@@ -314,7 +385,7 @@ body {
   height: 82%;
 }
 #information > article > p {
-  font-size: 0.8rem;
+  font-size: 0.92rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -323,6 +394,9 @@ body {
   }
   #tbd_img > #filler_img {
     height: 600px;
+  }
+  #filler_img {
+    height: 450px;
   }
   #fullpic_piz {
     height: 800px;

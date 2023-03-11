@@ -11,7 +11,7 @@
 
 #mobile_header {
     min-height: 20vh;
-    width: 100%;
+    width: 20%;
     display: grid;
     place-items: center;
     grid-auto-flow: column;
@@ -33,15 +33,17 @@
     display: grid;
     place-items: center;
     grid-template-rows: 20vh;
-    width: 100%;
+    width: 20%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
-    color: white;
+    background-color: orangered;
+    color: rgb(0, 0, 0);
     visibility: hidden;
     transition: all ease-in-out 0.33s;
     transform: scale(0);
     >a{
         font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
     }
 }
 
