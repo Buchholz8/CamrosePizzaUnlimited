@@ -298,7 +298,7 @@ body {
   place-items: center;
   text-align: center;
   margin-top: 20px;
-  background-image: url(/images/info_background.jpeg);
+  background-image: url(/images/pizzasign.jpeg);
 }
 #information * {
   padding: 10px;
@@ -474,7 +474,7 @@ footer {
 
 #staff_img > img {
   height: 300px;
-  width: 300px;
+  width: 560px;
   object-fit: cover;
 }
 
