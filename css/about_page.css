@@ -27,4 +27,10 @@
   padding: 10px;
 }
 
+#staff_img > img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=about_page.css.map */

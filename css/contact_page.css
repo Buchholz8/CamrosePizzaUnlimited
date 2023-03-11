@@ -23,6 +23,15 @@
   padding: 10px;
 }
 
+#contact_hours {
+  display: grid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contact_hours > p {
+  line-height: 40px;
+}
+
 #google_maps {
   display: grid;
   place-items: center;
@@ -32,6 +41,16 @@
   height: 300px;
   align-self: center;
   justify-self: center;
+}
+
+#hours_contact {
+  background-color: #ffffff;
+  border-color: black;
+  border-style: solid;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 15px;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=contact_page.css.map */
