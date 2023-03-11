@@ -22,7 +22,7 @@
   margin-left: 10px;
 }
 #top_type > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@
   margin-left: 10px;
 }
 #combos_spec > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -78,7 +78,7 @@
   margin-left: 10px;
 }
 #pizzas_prod > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -96,7 +96,7 @@
   margin-left: 10px;
 }
 #expanded_topings > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -119,7 +119,7 @@
   margin-left: 10px;
 }
 #toppings_prod > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -133,14 +133,14 @@
 }
 #pizza_types > h6 {
   font-size: 1.2rem;
-  color: rgb(255, 255, 255);
+  color: orangered;
 }
 #pizza_types * {
   font-size: 1.5rem;
   margin-bottom: 14px;
 }
 #pizza_types > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -157,7 +157,7 @@
   margin-bottom: 14px;
 }
 #tcombos_art > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -174,7 +174,7 @@
   margin-bottom: 14px;
 }
 #Combos_art > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -187,7 +187,7 @@
   padding: 16px;
 }
 #specialty_chick > h6 {
-  color: rgb(243, 243, 243);
+  color: orangered;
   font-size: 1.2rem;
 }
 #specialty_chick * {
@@ -195,7 +195,7 @@
   margin-bottom: 14px;
 }
 #specialty_chick > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
@@ -212,11 +212,11 @@
   margin-bottom: 14px;
 }
 #salads > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 #salads > div > h4 {
-  color: rgb(253, 253, 253);
+  color: orangered;
 }
 
 #wings {
@@ -232,11 +232,11 @@
   margin-bottom: 14px;
 }
 #wings > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 #wings > div > h4 {
-  color: rgb(253, 253, 253);
+  color: orangered;
 }
 
 #bevies {
@@ -252,7 +252,7 @@
   margin-bottom: 14px;
 }
 #bevies > div > p {
-  color: rgb(99, 99, 99);
+  color: rgb(230, 230, 230);
   padding-bottom: 20px;
 }
 
