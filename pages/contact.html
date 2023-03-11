@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +13,11 @@
     <meta name="og:Url" content="">
     <meta name="og:Description" content="The contact page for camrose pizza unlimited">
     <meta name="og:title" content="Contact Camrose Pizza Unlimited">
-    <meta name="og:img" content="https://scontent.fyxd2-1.fna.fbcdn.net/v/t39.30808-6/282113444_8244996725526277_8849531179681571148_n.jpg?stp=c0.43.522.272a_dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-JDfx26cBUUAX-d1t50&_nc_ht=scontent.fyxd2-1.fna&oh=00_AfAYW4Muo6k0wJmnTuXPycDUoxlSAteGXgaUmhnP9ereWw&oe=6412247C">
+    <meta name="og:img"
+        content="https://scontent.fyxd2-1.fna.fbcdn.net/v/t39.30808-6/282113444_8244996725526277_8849531179681571148_n.jpg?stp=c0.43.522.272a_dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-JDfx26cBUUAX-d1t50&_nc_ht=scontent.fyxd2-1.fna&oh=00_AfAYW4Muo6k0wJmnTuXPycDUoxlSAteGXgaUmhnP9ereWw&oe=6412247C">
     <meta name="og:type" content="article">
 </head>
+
 <body>
     <header id="topheader">
         <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
@@ -31,13 +34,13 @@
                 </label>
             </div>
             <a href="/pages/about.html">About</a>
-                <a href="/index.html">Home</a>
-                <a href="/pages/products.html">Products</a>
+            <a href="/index.html">Home</a>
+            <a href="/pages/products.html">Products</a>
         </section>
     </header>
     <main id="conpage">
         <p>We are a local buisiness in Camrose Alberta and we serve quality pizza.</p>
-            <div id="ping_loc_conpage">
+        <div id="ping_loc_conpage">
             <img src="/images/ping img.png" alt="a ping img ">
             <p>4911 51 Ave, Camrose, AB T4V 0V5</p>
         </div>
@@ -48,19 +51,35 @@
         </div>
         <article id="contact_hours">
             <h4>Hours</h4>
-                <p>Sun-Tues 10:30am-9pm</p>
-                <p>Wed-Thurs 10:30am-10pm</p>
-                <p>Friday-Sat 10:30am-12am</p>
+            <p>Sun-Tues 10:30am-9pm</p>
+            <p>Wed-Thurs 10:30am-10pm</p>
+            <p>Friday-Sat 10:30am-12am</p>
         </article>
-        <article id="personal_info">
-            <p>Name</p>
-            <p>Email</p>
-            <p>Questions</p>
-        </article>
+        
         <nav id="google_maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6787.709262073621!2d-112.82374245193685!3d53.02364138021979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x530abbc3ed12ec7f%3A0xd2c3b9cad6a494ed!2sCamrose%20Pizza%20Unlimited!5e0!3m2!1sen!2sca!4v1678550905260!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6787.709262073621!2d-112.82374245193685!3d53.02364138021979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x530abbc3ed12ec7f%3A0xd2c3b9cad6a494ed!2sCamrose%20Pizza%20Unlimited!5e0!3m2!1sen!2sca!4v1678550905260!5m2!1sen!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </nav>
-        </main>
+        <section id="personal_info">
+            <form action="/action_page.php">
+                <div>
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                <div>
+                    <label for="fname">Questions</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
     <footer>
         <section id="media_linkslogos">
             <p>Follow US</p>
@@ -94,4 +113,5 @@
         </section>
     </footer>
 </body>
+
 </html>
