@@ -89,6 +89,7 @@ body {
   margin: 15px;
   margin-left: 40px;
   margin-right: 40px;
+  min-height: 40%;
 }
 #pizza_menu > #fullpic_piz {
   height: 300px;
@@ -107,6 +108,11 @@ body {
   height: 250px;
   padding-top: 10px;
   object-fit: cover;
+}
+
+#allmeat {
+  display: grid;
+  padding-bottom: 80px;
 }
 
 #specialties {
@@ -226,9 +232,16 @@ body {
   margin-top: 30px;
   font-size: 1.5rem;
   display: grid;
-  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   background-color: aliceblue;
   width: 80%;
+}
+#information > article {
+  height: 80%;
+}
+#information > article > p {
+  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -264,6 +277,10 @@ body {
   }
   #welcome {
     grid-template-columns: 1fr 1fr;
+    height: 900px;
+  }
+  #info_par * {
+    margin-bottom: 40px;
   }
 }
 
