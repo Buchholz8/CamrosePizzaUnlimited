@@ -6,18 +6,21 @@ footer {
     min-height: 10vh;
     color: aliceblue;
 }
-
 #media_linkslogo {
     display: grid;
+    place-items: center;
 }
-
+.media_footer{
+    >a{
+    text-decoration: none;
+    }
+}
 #footer_info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 #otherfooter_info {
     display: grid;
     place-items: center;
@@ -28,17 +31,31 @@ footer {
     >h5{
         font-size: 1.2rem;
         padding-bottom: 10px;
+        text-decoration: underline;
     }
     >a{
         text-decoration: none;
         color: aliceblue;
     }
 }
-.Helps_Services{
+.services{
     display: grid;
     >h5{
         font-size: 1.2rem;
         padding-bottom: 10px;
+        text-decoration: underline;
+    }
+    >a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
+.policies{
+    display: grid;
+    >h5{
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+        text-decoration: underline;
     }
     >a{
         text-decoration: none;

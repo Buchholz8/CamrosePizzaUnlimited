@@ -9,6 +9,11 @@ footer {
 
 #media_linkslogo {
   display: grid;
+  place-items: center;
+}
+
+.media_footer > a {
+  text-decoration: none;
 }
 
 #footer_info {
@@ -30,20 +35,35 @@ footer {
 .pages_foot > h5 {
   font-size: 1.2rem;
   padding-bottom: 10px;
+  text-decoration: underline;
 }
 .pages_foot > a {
   text-decoration: none;
   color: aliceblue;
 }
 
-.Helps_Services {
+.services {
   display: grid;
 }
-.Helps_Services > h5 {
+.services > h5 {
   font-size: 1.2rem;
   padding-bottom: 10px;
+  text-decoration: underline;
 }
-.Helps_Services > a {
+.services > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.policies {
+  display: grid;
+}
+.policies > h5 {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.policies > a {
   text-decoration: none;
   color: aliceblue;
 }
