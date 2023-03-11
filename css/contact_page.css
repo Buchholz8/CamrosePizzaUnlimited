@@ -23,4 +23,15 @@
   padding: 10px;
 }
 
+#google_maps {
+  display: grid;
+  place-items: center;
+}
+#google_maps > iframe {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  justify-self: center;
+}
+
 /*# sourceMappingURL=contact_page.css.map */

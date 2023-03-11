@@ -22,3 +22,13 @@ grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
 
 }}
+#google_maps{
+    display: grid;
+    place-items: center;
+    >iframe{
+        width: 300px;
+        height: 300px;
+        align-self: center;
+        justify-self: center;
+    }
+}

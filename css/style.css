@@ -402,6 +402,17 @@ footer {
   padding: 10px;
 }
 
+#google_maps {
+  display: grid;
+  place-items: center;
+}
+#google_maps > iframe {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  justify-self: center;
+}
+
 #prod_header {
   margin-bottom: 10px;
 }
