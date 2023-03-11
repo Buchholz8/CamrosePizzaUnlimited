@@ -2,11 +2,21 @@
   display: grid;
   min-height: 80vh;
 }
+#aboutus_main > * {
+  margin-bottom: 20px;
+}
 #aboutus_main > section {
   display: grid;
   place-items: center;
   text-align: center;
   background-color: rgb(255, 255, 255);
+}
+
+#about_text {
+  display: grid;
+}
+#about_text > * {
+  padding-bottom: 30px;
 }
 
 #aboutus_header {
@@ -29,8 +39,12 @@
 
 #staff_img > img {
   height: 300px;
-  width: 560px;
-  object-fit: cover;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+iframe {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=about_page.css.map */

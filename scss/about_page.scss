@@ -1,21 +1,30 @@
-#aboutus_main{
-display: grid;
-min-height: 80vh;
-    >section{
+#aboutus_main {
     display: grid;
-    place-items: center;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+    min-height: 80vh;
+    >*{
+        margin-bottom: 20px;
+    }
+    >section {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
 }
+#about_text{
+    display: grid;
+    >*{
+        padding-bottom: 30px;
+    }
 }
-#aboutus_header{
+#aboutus_header {
     margin-bottom: 10px;
 }
+
 #links {
-        place-items: center;
+    place-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     >a {
         text-decoration: none;
         color: rgb(0, 0, 0);
@@ -24,12 +33,15 @@ min-height: 80vh;
         border-radius: 20px;
         padding: 10px;
 
-}
+    }
 }
 #staff_img{
     >img{
         height: 300px;
-        width: 560px;
-        object-fit: cover;
+        width: 75%;
+        margin-bottom: 20px;
     }
+}
+iframe{
+    margin-bottom: 20px;
 }

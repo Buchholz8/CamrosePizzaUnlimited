@@ -478,7 +478,7 @@ footer {
   display: grid;
 }
 .pages_foot > h5 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-bottom: 10px;
   text-decoration: underline;
 }
@@ -495,7 +495,7 @@ footer {
   display: grid;
 }
 .services > h5 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-bottom: 10px;
   text-decoration: underline;
 }
@@ -512,7 +512,7 @@ footer {
   display: grid;
 }
 .policies > h5 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-bottom: 10px;
   text-decoration: underline;
 }
@@ -533,11 +533,21 @@ footer {
   display: grid;
   min-height: 80vh;
 }
+#aboutus_main > * {
+  margin-bottom: 20px;
+}
 #aboutus_main > section {
   display: grid;
   place-items: center;
   text-align: center;
   background-color: rgb(255, 255, 255);
+}
+
+#about_text {
+  display: grid;
+}
+#about_text > * {
+  padding-bottom: 30px;
 }
 
 #aboutus_header {
@@ -560,8 +570,12 @@ footer {
 
 #staff_img > img {
   height: 300px;
-  width: 560px;
-  object-fit: cover;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+iframe {
+  margin-bottom: 20px;
 }
 
 #conpage {
